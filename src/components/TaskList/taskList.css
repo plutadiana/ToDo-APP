@@ -1,0 +1,43 @@
+.task-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 7px 5px;
+    margin: 5px;
+}
+
+.task-text {
+    padding-left: 10px;
+}
+
+.btns-task {
+    padding-right: 10px;
+}
+
+.btns-task button {
+    margin-right: 3.5px;
+    padding: 5px 9px;
+    border: 1.5px solid #4c9fc0;
+    border-radius: 10px;
+    color:#187195;
+    box-shadow: 1px 1px 5px 0.3px #4c9fc0;
+}
+
+.btns-task button:hover {
+    background-color:  #054e6b;
+    color:#ffffff;
+    box-shadow: 1px 1px 5px 0.3px  #57bae0;
+}
+
+span {
+    padding-left: 7px;
+}
+.btnEdit:disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+
+
+  
+  

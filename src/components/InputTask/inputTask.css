@@ -1,0 +1,18 @@
+input,
+.btnSave {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+    border: 1px solid grey;
+}
+
+.btnSave {
+    background-color: #57bae0;
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+}
+
+.btnSave:hover {
+    background-color: #2aa1d1;
+    color: rgb(32, 32, 32);
+}

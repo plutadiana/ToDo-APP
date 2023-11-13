@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+*{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background: url('./components/abstract-blurred-sea-shore-background-2021-08-31-05-30-16-utc.jpg') center center fixed; /* Setează imaginea de fundal și poziția */
+  background-size: cover; /* Asigură că imaginea se întinde pentru a acoperi întregul ecran */
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+h1{
+  color: #310101;
+  text-align:center;
+  letter-spacing: .07em;
+  padding: 17px 0;
+}
+
+.container {
+  background-color: #ffffffe0;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.container-status {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnClearAll{
+  height: 100%;
+  width: 20%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-style: bold;
+  padding: 5px 9px;
+  border: 1.5px solid #ac4e07;
+  border-radius: 10px;
+  color: #ac4e07;
+  box-shadow: 1px 1px 5px 0.3px #ac4e07;
+}
+
+.btnClearAll:hover {
+  background-color:#ac4e07;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

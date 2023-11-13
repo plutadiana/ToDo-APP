@@ -1,0 +1,12 @@
+.btn-statuses {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    color:#093d51
+}
+
+li {
+    list-style-type: none;
+    padding: 7px 17px;
+    height: 100%;
+}
